@@ -103,5 +103,48 @@ h3 {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  margin: 10px;
+  margin: 40px;
+}
+
+#contact {
+  margin-bottom: 50px;
+}
+
+.yogurt-img {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 769px) {
+  .navigation-links {
+    margin: 20px 0 20px;
+  }
+  .navigation-links a {
+    padding: 10px 15px;
+  }
+  .project-link {
+    padding: 10px 15px;
+  }
+  .project-button {
+    text-align: center;
+  }
+  .project-heading {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
 }
